@@ -1,0 +1,669 @@
+.fluid-container{
+    display: flex;
+    margin-top: 3rem;
+    background: #000000;
+    padding: 5rem;
+    gap: 3rem;
+}
+
+.sectons h3{
+    font-size: 2rem;
+    color: white;
+    font-family: 'poppins' sans-serif;
+    font-weight: 700;
+}
+.sectons h3 a{
+  
+    color: white;
+   text-decoration: none;
+}
+.sectons hr{
+  width: 14rem;
+  height: 3px;
+  background: #FFFFFF;
+  border: none;
+  opacity: 0.8;
+  margin: 10px 0;
+}
+
+.sectons .ul-list{
+    display: flex;
+    padding-top: 1rem;
+    flex-direction: column;
+    list-style-type: none;
+    padding-bottom: 1.7rem;
+}
+
+
+.sectons .ul-list li{
+    color: #fff;
+    padding-top: 0.6em;
+}
+
+.sectons .ul-list li a{
+    color: #fff;
+    margin-top: 0.6em;
+    text-decoration: none;
+}
+
+/* second footer line*/
+.Press-Statements{
+    width: 20vw;
+    margin-top: 0.4rem;
+}
+.Press-Statements hr{
+   width: 19rem;
+  height: 3px;
+  background: #FFFFFF;
+  border: none;
+  opacity: 0.8;
+  margin: 10px 0;
+}
+
+.Press-Statements h4{
+    font-size: 1.7rem;
+} 
+.Press-Statements h4 a{
+  text-decoration: none;
+   color: white;
+}
+
+.Press-Statements h5{
+    color: white;
+    font-size: 1rem;
+    padding-top: 1rem;
+    line-height: 1.5em;
+}
+
+.Press-Statements h5 a{
+    color: white;
+    text-decoration: none;
+    line-height: 1.5em;
+}
+
+.text-content span{
+    color: #ddd;
+     font-family: 'poppins' sans-serif;
+     font-size: 0.8em;
+}
+
+.text-content p{
+    font-size: 13px;
+    line-height: 22px;
+     font-family: 'poppins' sans-serif;
+}
+
+.text-content p a{
+    color: #ececec;
+    text-decoration: none;
+}
+
+.text-content a{
+    text-decoration: none;
+}
+
+.text-content hr {
+  width: 19rem;
+  height: 3px;
+  background: #FFFFFF;
+  border: none;
+  
+  opacity: 0.8;
+  margin: 10px 0;
+}
+
+
+.text-content .hindi-pera{
+    padding-top: 0.6em;
+    line-height: 25px;
+}
+
+/*======== Line 3=========*/
+.Latest-Publication{
+    width: 20vw;
+    margin-top: 0.4rem;
+}
+.Latest-Publication hr{
+  width: 14rem;
+  height: 3px;
+  background: #FFFFFF;
+  border: none;
+  
+  opacity: 0.8;
+  margin: 10px 0;
+}
+
+.Press-Statements h4{
+    font-size: 1.7rem;
+} 
+.Latest-Publication h4 a{
+  text-decoration: none;
+   color: white;
+}
+
+.Latest-Publication h5{
+    color: white;
+    font-size: 1rem;
+    padding-top: 1rem;
+    line-height: 1.5em;
+}
+
+.Latest-Publication h5 a{
+    color: white;
+    text-decoration: none;
+    line-height: 1.5em;
+}
+
+.text-content span{
+    color: #ddd;
+     font-family: 'poppins' sans-serif;
+     font-size: 0.8em;
+}
+
+.text-content p{
+    font-size: 13px;
+    line-height: 22px;
+     font-family: 'poppins' sans-serif;
+}
+
+.text-content p a{
+    color: #ececec;
+    text-decoration: none;
+}
+
+.text-content a{
+    text-decoration: none;
+}
+
+
+
+.text-content .hindi-pera{
+    padding-top: 0.6em;
+    line-height: 25px;
+}
+
+.Prison-project a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-col4{
+    width: 20vw;
+}
+.footer-col4 h4 a{
+    text-decoration: none;
+    color: white;
+}
+.text-content h5 a{
+    color: white;
+}
+
+
+.footer-col4 hr {
+  width: 22rem;
+  height: 3px;
+  background: #FFFFFF;
+  border: none;
+  opacity: 0.8;
+  margin: 10px 0;
+}
+
+
+
+@media (min-width: 190.99px) and (max-width: 376px) {
+    .fluid-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+.sectons{
+    width: 90vw;
+    padding-top: 2rem;
+}
+/* second footer line*/
+.Press-Statements{
+    width: 90vw;
+    margin-top: 0.4rem;
+}
+.Press-Statements hr{
+   width: 19rem;
+ 
+}
+
+
+/*======== Line 3=========*/
+.Latest-Publication{
+    width: 90vw;
+    margin-top: 0.4rem;
+}
+.Latest-Publication hr{
+  width: 20rem;
+  height: 3px;
+  background: #FFFFFF;
+  border: none;
+  
+  opacity: 0.8;
+  margin: 10px 0;
+}
+
+/* coloumn 4 */
+
+.footer-col4{
+    width: 90vw;
+}
+.footer-col4 h4 a{
+    text-decoration: none;
+    color: white;
+}
+.text-content h5 a{
+    color: white;
+}
+
+
+.footer-col4 hr {
+  width: 20rem;
+  height: 3px;
+  background: #FFFFFF;
+  border: none;
+  opacity: 0.8;
+  margin: 10px 0;
+}
+
+
+}
+
+@media (min-width: 376.98px) and (max-width: 457px) {
+    .fluid-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.sectons{
+    width: 90vw;
+    padding-top: 2rem;
+}
+/* second footer line*/
+.Press-Statements{
+    width: 90vw;
+    margin-top: 0.4rem;
+}
+.Press-Statements hr{
+   width: 19rem;
+ 
+}
+
+
+/*======== Line 3=========*/
+.Latest-Publication{
+    width: 90vw;
+    margin-top: 0.4rem;
+}
+.Latest-Publication hr{
+  width: 20rem;
+  height: 3px;
+  background: #FFFFFF;
+  border: none;
+  opacity: 0.8;
+  margin: 10px 0;
+}
+
+/* coloumn 4 */
+
+.footer-col4{
+    width: 90vw;
+}
+.footer-col4 h4 a{
+    text-decoration: none;
+    color: white;
+}
+.text-content h5 a{
+    color: white;
+}
+
+
+.footer-col4 hr {
+  width: 20rem;
+  height: 3px;
+  background: #FFFFFF;
+  border: none;
+  opacity: 0.8;
+  margin: 10px 0;
+}
+}
+
+@media (min-width: 457.98px) and (max-width: 573px) {
+     .fluid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 20px;
+  }
+
+    /* SAARE COLUMN */
+  .sectons,
+  .Press-Statements,
+  .Latest-Publication,
+  .footer-col4 {
+    width: 100% !important;
+  }
+
+  /* HR WIDTH FIX */
+  .sectons hr,
+  .Press-Statements hr,
+  .Latest-Publication hr,
+  .footer-col4 hr {
+    width: 80%;
+    max-width: 250px;
+    height: 3px;
+    background: #ffffff;
+    opacity: 0.8;
+    border: none;
+    margin: 10px 0;
+  }
+
+  .Press-Statements{
+    margin-bottom: 3rem;
+  }
+.Press-Statements h4{
+ font-size: 1.5em;
+}
+ .fluid-container h4{
+    font-size: 1.5em;
+  }
+.sectons h3{
+    font-size: 1.5rem;
+}
+
+.Latest-Publication{
+    position: relative;
+    top: -9rem;
+}
+.footer-col4 h4 a{
+    text-decoration: none;
+    color: white;
+}
+.text-content h5 a{
+    color: white;
+}
+
+
+}
+
+
+@media (min-width: 573.98px) and (max-width: 644px) {
+      .fluid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 20px;
+  }
+
+    /* SAARE COLUMN */
+  .sectons,
+  .Press-Statements,
+  .Latest-Publication,
+  .footer-col4 {
+    width: 100% !important;
+  }
+
+  /* HR WIDTH FIX */
+  .sectons hr,
+  .Press-Statements hr,
+  .Latest-Publication hr,
+  .footer-col4 hr {
+    width: 80%;
+    max-width: 250px;
+    height: 3px;
+    background: #ffffff;
+    opacity: 0.8;
+    border: none;
+    margin: 10px 0;
+  }
+
+  .Press-Statements{
+    margin-bottom: 3rem;
+  }
+.Press-Statements h4{
+ font-size: 1.5em;
+}
+ .fluid-container h4{
+    font-size: 1.5em;
+  }
+.sectons h3{
+    font-size: 1.5rem;
+}
+
+.Latest-Publication{
+    position: relative;
+    top: -9rem;
+}
+.footer-col4 h4 a{
+    text-decoration: none;
+    color: white;
+}
+.text-content h5 a{
+    color: white;
+}
+
+
+}
+
+
+
+@media (min-width: 644.98px) and (max-width: 792px) {
+          .fluid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 20px;
+  }
+
+    /* SAARE COLUMN */
+  .sectons,
+  .Press-Statements,
+  .Latest-Publication,
+  .footer-col4 {
+    width: 100% !important;
+  }
+
+  /* HR WIDTH FIX */
+  .sectons hr,
+  .Press-Statements hr,
+  .Latest-Publication hr,
+  .footer-col4 hr {
+    width: 80%;
+    max-width: 250px;
+    height: 3px;
+    background: #ffffff;
+    opacity: 0.8;
+    border: none;
+    margin: 10px 0;
+  }
+
+  .Press-Statements{
+    margin-bottom: 3rem;
+  }
+.Press-Statements h4{
+ font-size: 1.5em;
+}
+ .fluid-container h4{
+    font-size: 1.5em;
+  }
+
+  .sectons{
+    margin-bottom: 8rem;
+  }
+.sectons h3{
+    font-size: 1.5rem;
+}
+
+.Latest-Publication{
+    position: relative;
+    top: -9rem;
+}
+
+.footer-col4{
+    margin-top: -8rem;
+}
+.footer-col4 h4 a{
+    text-decoration: none;
+    color: white;
+}
+.text-content h5 a{
+    color: white;
+}
+
+}
+
+
+ @media (min-width: 792.98px) and (max-width: 912px) {
+            .fluid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 20px;
+  }
+
+    /* SAARE COLUMN */
+  .sectons,
+  .Press-Statements,
+  .Latest-Publication,
+  .footer-col4 {
+    width: 100% !important;
+  }
+
+  /* HR WIDTH FIX */
+  .sectons hr,
+  .Press-Statements hr,
+  .Latest-Publication hr,
+  .footer-col4 hr {
+    width: 80%;
+    max-width: 250px;
+    height: 3px;
+    background: #ffffff;
+    opacity: 0.8;
+    border: none;
+    margin: 10px 0;
+  }
+
+  .Press-Statements{
+    margin-bottom: 3rem;
+  }
+.Press-Statements h4{
+ font-size: 1.5em;
+}
+ .fluid-container h4{
+    font-size: 1.5em;
+  }
+
+  .sectons{
+    margin-bottom: 8rem;
+  }
+.sectons h3{
+    font-size: 1.5rem;
+}
+
+.Latest-Publication{
+    position: relative;
+    top: -9rem;
+}
+
+.footer-col4{
+    margin-top: -8rem;
+}
+.footer-col4 h4 a{
+    text-decoration: none;
+    color: white;
+}
+.text-content h5 a{
+    color: white;
+}
+
+ }
+
+ @media (min-width: 912.98px) and (max-width: 1054px) {
+    .fluid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    padding: 20px;
+  }
+
+    /* SAARE COLUMN */
+  .sectons,
+  .Press-Statements,
+  .Latest-Publication,
+  .footer-col4 {
+    width: 100% !important;
+  }
+
+  /* HR WIDTH FIX */
+  .sectons hr,
+  .Press-Statements hr,
+  .Latest-Publication hr,
+  .footer-col4 hr {
+    width: 80%;
+    max-width: 250px;
+    height: 3px;
+    background: #ffffff;
+    opacity: 0.8;
+    border: none;
+    margin: 10px 0;
+  }
+
+  .Press-Statements{
+    margin-bottom: 3rem;
+  }
+.Press-Statements h4{
+ font-size: 1.5em;
+}
+ .fluid-container h4{
+    font-size: 1.5em;
+  }
+
+  .sectons{
+    margin-bottom: 8rem;
+  }
+.sectons h3{
+    font-size: 1.5rem;
+}
+
+
+.footer-col4 h4 a{
+    text-decoration: none;
+    color: white;
+}
+.text-content h5 a{
+    color: white;
+}
+
+ }
+
+ @media (min-width: 1054.98px) and (max-width: 1286px) {
+   .fluid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    padding: 20px;
+  }
+
+  
+  /* HR WIDTH FIX */
+  .sectons hr,
+  .Press-Statements hr,
+  .Latest-Publication hr,
+  .footer-col4 hr {
+    width: 60%;
+    max-width: 250px;
+    height: 3px;
+    background: #ffffff;
+    opacity: 0.8;
+    border: none;
+    margin: 10px 0;
+  }
+
+ }

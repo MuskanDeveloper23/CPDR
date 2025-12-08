@@ -1,0 +1,721 @@
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  
+}
+
+.hamburger {
+    display: none;
+}
+
+.navbar .logo {
+    padding-left: 10px;
+
+}
+
+.navbar .logo img {
+    width: 9vw;
+    padding-top: 10px;
+
+}
+
+.navbar .nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-links li {
+    list-style-type: none;
+}
+
+.navbar .nav-links li a {
+    list-style-type: none;
+    margin: 1.4rem;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #f0f0f0;
+    padding: 9px 9px;
+    border-radius: 14px;
+    margin-right: 2rem;
+}
+
+.search-bar input {
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+    width: 27vw;
+}
+
+.search-bar i {
+    color: rgb(98, 93, 93);
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.search-bar input:focus {
+    /* same background */
+    border: none;
+    outline: none;
+    /* black outline remove */
+    color: #000;
+    /* text color */
+}
+
+/*================== Mobile size  =====================*/
+@media (min-width: 190.99px) and (max-width: 376px) {
+    .navbar {
+        padding: 0.6rem 1rem;
+        width: 100%;
+        height: auto;
+        position: relative;
+
+    }
+
+    .navbar .logo {
+        position: relative;
+        left: -10px;
+        top: -0.8rem;
+    }
+
+    .navbar .logo img {
+        width: 70px;
+    }
+
+    .navbar .nav-links {
+        display: none;
+
+    }
+
+    /* show only when open */
+    .nav-links.active {
+        display: flex !important;
+        flex-direction: column;
+        gap: 22px;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+
+
+        width: 100%;
+        height: 100vh;
+
+
+        background: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(12px);
+
+        padding-top: 120px;
+        align-items: center;
+        justify-content: flex-start;
+        /* perfect vertical center */
+
+        animation: slideShow 0.4s ease forwards;
+    }
+
+    /* Animation */
+    @keyframes slideShow {
+        from {
+            opacity: 0;
+            transform: translateY(-10%);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /* Menu Links */
+    .nav-links li a {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #000;
+    }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 10px;
+    }
+
+
+    .hamburger img {
+        width: 30px;
+        transition: opacity 0.3s ease-in-out;
+
+    }
+
+    .search-bar {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background-color: #f0f0f0;
+        padding: 9px 9px;
+        border-radius: 14px;
+        margin-left: 0;
+    }
+
+    .search-bar input {
+        border-radius: 10px;
+        border: 1px solid gray;
+        padding: 10px;
+        width: 75vw;
+    }
+
+    .search-bar i {
+        color: rgb(98, 93, 93);
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+
+    /* Background dark blur behind menu */
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(4px);
+        z-index: 9000;
+    }
+
+}
+
+
+
+@media (min-width: 376.98px) and (max-width: 457px) {
+    .navbar {
+        padding: 0.6rem 1rem;
+        width: 100%;
+        height: auto;
+        position: relative;
+
+    }
+
+    .navbar .logo {
+        position: relative;
+        left: 0rem;
+        top: -0.8rem;
+    }
+
+    .navbar .logo img {
+        width: 90px;
+    }
+
+    .navbar .nav-links {
+        display: none;
+
+    }
+
+    /* show only when open */
+    .nav-links.active {
+        display: flex !important;
+        flex-direction: column;
+        gap: 22px;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+
+
+        width: 100%;
+        height: 100vh;
+
+
+        background: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(12px);
+
+        padding-top: 120px;
+        align-items: center;
+        justify-content: flex-start;
+        /* perfect vertical center */
+
+        animation: slideShow 0.4s ease forwards;
+    }
+
+    /* Animation */
+    @keyframes slideShow {
+        from {
+            opacity: 0;
+            transform: translateY(-10%);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /* Menu Links */
+    .nav-links li a {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #000;
+    }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 20px;
+    }
+
+
+    .hamburger img {
+        width: 40px;
+        transition: opacity 0.3s ease-in-out;
+
+    }
+
+    .search-bar {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background-color: #f0f0f0;
+        padding: 9px 9px;
+        border-radius: 14px;
+        margin-left: 0;
+    }
+
+    .search-bar input {
+        border-radius: 10px;
+        border: 1px solid gray;
+        padding: 10px;
+        width: 75vw;
+    }
+
+    .search-bar i {
+        color: rgb(98, 93, 93);
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+
+    /* Background dark blur behind menu */
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(4px);
+        z-index: 9000;
+    }
+
+}
+
+
+
+
+
+@media (min-width: 457.98px) and (max-width: 644px) {
+    .navbar {
+        padding: 0.6rem 1rem;
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar .logo {
+        position: relative;
+        left: 0rem;
+        top: -0.8rem;
+    }
+
+    .navbar .logo img {
+        width: 20vw;
+    }
+
+    .navbar .nav-links {
+        display: none;
+
+    }
+
+    /* show only when open */
+    .nav-links.active {
+        display: flex !important;
+        flex-direction: column;
+        gap: 22px;
+        
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 100vh;
+
+        background: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(12px);
+
+        padding-top: 120px;
+        align-items: center;
+        justify-content: flex-start;
+        /* perfect vertical center */
+
+        animation: slideShow 0.4s ease forwards;
+    }
+
+    /* Animation */
+    @keyframes slideShow {
+        from {
+            opacity: 0;
+            transform: translateY(-10%);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /* Menu Links */
+    .nav-links li a {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #000;
+    }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 20px;
+    }
+
+
+    .hamburger img {
+        width: 8vw;
+        transition: opacity 0.3s ease-in-out;
+         
+    }
+
+    .search-bar {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background-color: #f0f0f0;
+        padding: 9px 9px;
+        border-radius: 14px;
+        margin-left: 0;
+    }
+
+    .search-bar input {
+        border-radius: 10px;
+        border: 1px solid gray;
+        padding: 10px;
+        width: 79vw;
+    }
+
+    .search-bar i {
+        color: rgb(98, 93, 93);
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+
+    /* Background dark blur behind menu */
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(4px);
+        z-index: 9000;
+    }
+
+}
+
+
+
+@media (min-width: 644.98px) and (max-width: 792px) {
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hamburger {
+    display: none;
+}
+
+.navbar .logo {
+    padding-left: 30px;
+
+}
+
+.navbar .logo img {
+    width: 80px;
+    padding-top: 0px;
+
+}
+
+.navbar .nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-links li {
+    list-style-type: none;
+}
+
+.navbar .nav-links li a {
+    font-size: 0.9em;
+}
+
+.search-bar{
+    width: 100vw;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+}
+
+.search-bar i {
+    color: rgb(98, 93, 93);
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+}
+
+
+@media (min-width: 792.98px) and (max-width: 912px) {
+.navbar {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE */
+
+}
+
+/* Chrome scrollbar hide */
+.nav-links::-webkit-scrollbar {
+  display: none;
+}
+
+.search-open .nav-links {
+  max-width: 50%;  /* compress */
+  transition: max-width 0.3s ease;
+}
+
+
+.search-open .nav-links {
+  max-width: 50%;  /* compress */
+  transition: max-width 0.3s ease;
+}
+
+.hamburger {
+    display: none;
+}
+
+.navbar .logo {
+    padding-left: 30px;
+
+}
+
+.navbar .logo img {
+    width: 100px;
+    padding-top: 0px;
+
+}
+
+.navbar .nav-links {
+    display: flex;
+    align-items: center;
+    flex-shrink: 1;
+  transition: width 0.3s ease;
+   
+}
+
+/* Jab search open ho, nav links shrink ho jayenge */
+.nav-links.shrink {
+  width: 10px;
+}
+
+/* Jab search open ho */
+.search-bar.expand {
+  width: 220px; /* input visible */
+}
+
+
+.search-bar.expand input {
+  display: block;
+} 
+
+.navbar .nav-links li {
+    list-style-type: none;
+}
+
+.navbar .nav-links li a {
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+.search-bar{
+   display: flex;
+  align-items: center;
+  background: #000;
+  padding: 6px 10px;
+  border-radius: 30px;
+  gap: 8px;
+  transition: width 0.3s ease;
+  width: 40px;
+  overflow: hidden;
+  flex-shrink: 0;  /* yeh line search ko neeche girne se bachati hai */
+
+}
+
+/* Search open hone par nav links ko squeeze karo */
+.navbar.search-open .nav-links {
+  max-width: 40% !important;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  scrollbar-width: none;
+}
+
+.navbar.search-open .nav-links::-webkit-scrollbar {
+  display: none;
+}
+.search-bar input {
+    display: none;
+    width: 100%;
+    padding: 10px;
+}
+
+.search-bar i {
+    color: #ffffff;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+}
+
+
+@media (min-width: 912.98px) and (max-width: 1054px) {
+.navbar {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE */
+
+}
+
+/* Chrome scrollbar hide */
+.nav-links::-webkit-scrollbar {
+  display: none;
+}
+
+.search-open .nav-links {
+  max-width: 50%;  /* compress */
+  transition: max-width 0.3s ease;
+}
+
+
+.search-open .nav-links {
+  max-width: 50%;  /* compress */
+  transition: max-width 0.3s ease;
+}
+
+.hamburger {
+    display: none;
+}
+
+.navbar .logo {
+    padding-left: 30px;
+
+}
+
+.navbar .logo img {
+    width: 120px;
+    padding-top: 0px;
+
+}
+
+.navbar .nav-links {
+    display: flex;
+    align-items: center;
+    flex-shrink: 1;
+  transition: width 0.3s ease;
+   
+}
+
+/* Jab search open ho, nav links shrink ho jayenge */
+.nav-links.shrink {
+  width: 10px;
+}
+
+/* Jab search open ho */
+.search-bar.expand {
+  width: 220px; /* input visible */
+}
+
+
+.search-bar.expand input {
+  display: block;
+} 
+
+.navbar .nav-links li {
+    list-style-type: none;
+}
+
+
+.search-bar{
+   display: flex;
+  align-items: center;
+  background: #000;
+  padding: 6px 10px;
+  border-radius: 30px;
+  gap: 8px;
+  transition: width 0.3s ease;
+  width: 40px;
+  overflow: hidden;
+  flex-shrink: 0;  /* yeh line search ko neeche girne se bachati hai */
+
+}
+
+/* Search open hone par nav links ko squeeze karo */
+.navbar.search-open .nav-links {
+  max-width: 40% !important;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  scrollbar-width: none;
+}
+
+.navbar.search-open .nav-links::-webkit-scrollbar {
+  display: none;
+}
+.search-bar input {
+    display: none;
+    width: 100%;
+    padding: 10px;
+}
+
+.search-bar i {
+    color: #ffffff;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+}

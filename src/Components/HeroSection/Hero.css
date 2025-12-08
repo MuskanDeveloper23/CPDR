@@ -1,0 +1,416 @@
+.heroSection{
+    background: linear-gradient(to left, #ffffff, #f0f0f0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  padding: 40px;
+  height: 90vh;
+}
+
+.heroSection .img-section img{
+    width: 35vw;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+.heroSection .About-section {
+    width: 50%;
+    position: relative;
+    top: -1rem;
+}
+.heroSection .About-section h2{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 60px;
+    font-weight: 700;
+}
+
+.heroSection .About-section p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+    margin-bottom: 20px;
+    
+}
+
+.heroSection .About-section .button-img h3{
+ padding: 20px 20px;
+  background: #000;
+  border: 2px solid #000;   /* your border color */
+  border-style: dashed;
+  color: #ffffff;
+  display: inline-block;        /* button 100% width nahi lega */
+  cursor: pointer;
+  border-radius: 12px;
+  font-size: 1rem;
+}
+
+.heroSection .About-section .button-img h3:hover{
+     background: #000;          /* hover par background = border */
+  color: white;                 /* text white ho jayega */
+  border-color: #000; 
+}
+
+@media (min-width: 190.99px) and (max-width: 376px) {
+ .heroSection{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  padding: 0;
+  height: auto;
+}
+
+.heroSection .img-section img{
+    width: 90vw;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+.heroSection .About-section {
+    width: 100%;
+    padding: 1rem;
+    position: relative;
+    top: -1rem;
+}
+.heroSection .About-section h2{
+    padding-top: 1rem;
+   font-size: 1.5rem;
+    line-height: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.heroSection .About-section p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+
+
+.button-img{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.heroSection .About-section .button-img h3{
+     font-size: 0.8em;
+     padding: 1rem;
+    
+}
+}
+
+@media (min-width: 376.98px) and (max-width: 457px) {
+    .heroSection{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  padding: 0;
+  height: auto;
+}
+
+.heroSection .img-section img{
+    width: 90vw;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+.heroSection .About-section {
+    width: 100%;
+    padding: 1rem;
+    position: relative;
+    top: -1rem;
+}
+.heroSection .About-section h2{
+    padding-top: 1rem;
+   font-size: 1.5rem;
+    line-height: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.heroSection .About-section p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.button-img{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.heroSection .About-section .button-img h3{
+     font-size: 0.8em;
+     padding: 1rem;
+    
+}
+}
+
+@media (min-width: 457.98px) and (max-width: 573px) {
+       .heroSection{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  padding: 0;
+  height: auto;
+}
+
+.heroSection .img-section img{
+    width: 90vw;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+.heroSection .About-section {
+    width: 100%;
+    padding: 1rem;
+    position: relative;
+    top: -1rem;
+}
+.heroSection .About-section h2{
+    padding-top: 1rem;
+   font-size: 1.3rem;
+    line-height: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.heroSection .About-section p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.button-img{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.heroSection .About-section .button-img h3{
+     font-size: 0.8em;
+     padding: 1rem;
+    
+}
+}
+
+
+
+@media (min-width: 573.98px) and (max-width: 644px) {
+           .heroSection{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  padding: 0;
+  height: auto;
+}
+
+.heroSection .img-section img{
+    width: 90vw;
+}
+.heroSection .About-section {
+    width: 100%;
+    padding: 1rem;
+    position: relative;
+    top: -1rem;
+}
+.heroSection .About-section h2{
+    padding-top: 1rem;
+   font-size: 1.6rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.heroSection .About-section p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+
+.button-img{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.heroSection .About-section .button-img h3{
+     font-size: 1em;
+     padding: 1rem;
+    
+}
+}
+
+
+
+@media (min-width: 644.98px) and (max-width: 792px) {
+   .heroSection{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem;
+    height: auto;
+}
+.img-section{
+    padding-top: 2rem;
+}
+.heroSection .img-section img{
+    width: 80VW;
+    
+}
+.heroSection .About-section {
+    width: 80VW;
+    padding: 1rem;
+    position: relative;
+    top: -1rem;
+}
+.heroSection .About-section h2{
+    padding-top: 1rem;
+   font-size: 1.6rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.heroSection .About-section p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+
+.button-img{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.heroSection .About-section .button-img h3{
+     font-size: 0.8em;
+     padding: 1rem;
+    
+}
+}
+
+@media (min-width: 792.98px) and (max-width: 912px) {
+    .heroSection{
+        display: flex; 
+        height: auto;
+        padding: 1rem;
+}
+
+.heroSection .img-section img{
+    width: 40vw;
+    height: 40vw;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    margin-top: -3em;
+}
+.heroSection .About-section {
+    width: 40vw;
+    position: relative;
+    top: 0;
+}
+.heroSection .About-section h2{
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+    
+}
+
+.heroSection .About-section p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+}
+.heroSection .About-section .button-img h3{
+     font-size: 0.8em;
+     padding: 1rem;
+    
+}
+
+}
+
+@media (min-width: 912.98px) and (max-width: 1054px) {
+        .heroSection{
+        display: flex; 
+        height: 100vh;
+        padding: 0;
+}
+
+.heroSection .img-section img{
+    width: 40vw;
+    height: 40vw;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    margin-top: -3em;
+}
+.heroSection .About-section {
+    width: 50vw;
+    position: relative;
+    top: 0;
+}
+.heroSection .About-section h2{
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+    
+}
+
+.heroSection .About-section p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+}
+
+.heroSection .About-section .button-img h3{
+    color:beige;
+    text-align: center;
+    position: unset;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+}
+
+
+
+@media (min-width: 1054.98px) and (max-width: 1286px) {
+        .heroSection{
+        display: flex; 
+        height: 100vh;
+        padding: 0;
+}
+
+.heroSection .img-section img{
+    width: 40vw;
+    height: 40vw;
+}
+.heroSection .About-section {
+    width: 50vw;
+    margin-top: 3rem;
+}
+.heroSection .About-section h2{
+    font-size: 1.9rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+    
+}
+
+.heroSection .About-section p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.heroSection .About-section .button-img h3{
+    color:beige;
+    text-align: center;
+    position: unset;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+}

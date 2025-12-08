@@ -1,0 +1,424 @@
+  .Cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+    padding: 0 7rem;
+    overflow: hidden;
+  }
+
+  .Card-1 hr {
+    width: 30vw;
+  }
+
+  .card-box img {
+    width: 10vw;
+  }
+
+  .Card-1 h1 a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: 'poppins' sans-serif;
+    font-weight: 700;
+  }
+
+  .Card-1 .card-box {
+    display: flex;
+    padding: 1em 0;
+  }
+
+  .Card-1 .card-box img {
+    border-radius: 0.5em;
+  }
+
+  .Card-1 .card-box p {
+    font-size: 0.9em;
+    padding: 0.2em;
+    padding: 1rem;
+    line-height: 1.5em;
+  }
+
+  .Cards .card-pera {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .Cards .card-pera p {
+    font-size: 0.8em;
+  }
+
+  .line {
+    width: 1px;
+    margin-right: 0.8em;
+    /* line ki thickness */
+    height: 60px;
+    /* line ki height */
+    background: #a19999;
+    /* color (black) */
+  }
+
+
+  /*================== card 2=============================*/
+
+  
+  .card-box img {
+    width: 10vw;
+    border-radius: 0.5em;
+  }
+
+  .Card-2 h1 a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: 'poppins' sans-serif;
+    font-weight: 700;
+  }
+
+  .Card-2 .card-box {
+    display: flex;
+    padding: 1em 0;
+  }
+
+  .Card-2 .card-box img {
+    border-radius: 0.5em;
+  }
+
+  .Card-2 .card-box p {
+    font-size: 0.9em;
+    padding: 0.2em;
+    padding: 1rem;
+    line-height: 1.5em;
+  }
+
+  .Cards .card-pera {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .Cards .card-pera p {
+    font-size: 0.8em;
+  }
+
+  .line {
+    width: 1px;
+    margin-right: 0.8em;
+    /* line ki thickness */
+    height: 60px;
+    /* line ki height */
+    background: #a19999;
+    /* color (black) */
+  }
+  
+  .Card-2   hr {
+    width: 30vw;
+  }
+
+  /*================== card 2 =============================*/
+
+  
+  .card-box img {
+    width: 10vw;
+    border-radius: 0.5em;
+  }
+
+  .Card-3 h1 a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: 'poppins' sans-serif;
+    font-weight: 700;
+  }
+
+  .Card-3 .card-box {
+    display: flex;
+    padding: 1em 0;
+  }
+
+  .Card-3 .card-box img {
+    border-radius: 0.5em;
+    height: 15vh;
+  }
+
+  .Card-3 .card-box p {
+    font-size: 0.9em;
+    padding: 0.2em;
+    padding: 1rem;
+    line-height: 1.5em;
+  }
+
+  .Cards .card-pera {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .Cards .card-pera p {
+    font-size: 0.8em;
+  }
+
+ .Card-3 .line {
+    width: 1px;
+    margin-right: 0.8em;
+    /* line ki thickness */
+    height: 100px;
+    /* line ki height */
+    background: #a19999;
+    /* color (black) */
+  }
+  
+  .Card-2   hr {
+    width: 30vw;
+  }
+
+  @media (min-width: 190.99px) and (max-width: 376px) {
+
+    .Cards {
+    display: flex;
+    flex-direction: column;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    padding: 1rem 1rem;
+    overflow: hidden;
+  }
+
+  
+.Cards hr {
+  width: 100% !important;
+}
+
+/* ---- sabhi images ek jaisi ---- */
+  .Cards .card-box img {
+    width: 30vw !important;
+    height: auto !important;
+    
+  }
+
+  .line {
+    width: 1px;
+    margin-right: 0.8em;
+    /* line ki thickness */
+    height: auto;
+    /* line ki height */
+    background: #a19999;
+    /* color (black) */
+  }
+
+
+  }
+
+
+  @media (min-width: 376.98px) and (max-width: 457px) {
+   .Cards {
+    display: flex;
+    flex-direction: column;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    padding: 1rem 1rem;
+    overflow: hidden;
+  }
+
+  
+.Cards hr {
+  width: 100% !important;
+}
+
+/* ---- sabhi images ek jaisi ---- */
+  .Cards .card-box img {
+    width: 30vw !important;
+    height: auto !important;
+    
+  }
+
+  .line {
+    width: 1px;
+    margin-right: 0.8em;
+    /* line ki thickness */
+    height: auto;
+    /* line ki height */
+    background: #a19999;
+    /* color (black) */
+  }
+
+  }
+
+
+  @media (min-width: 457.98px) and (max-width: 573px) {
+     .Cards {
+    display: flex;
+    flex-direction: column;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    padding: 1rem 1rem;
+    overflow: hidden;
+  }
+
+  
+.Cards hr {
+  width: 100% !important;
+}
+
+/* ---- sabhi images ek jaisi ---- */
+  .Cards .card-box img {
+    width: 30vw !important;
+    height: auto !important;
+    
+  }
+
+  .line {
+    width: 1px;
+    margin-right: 0.8em;
+    /* line ki thickness */
+    height: auto;
+    /* line ki height */
+    background: #a19999;
+    /* color (black) */
+  }
+  }
+
+
+
+  @media (min-width: 573.98px) and (max-width: 644px) {
+    .Cards {
+    display: flex;
+    flex-direction: column;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    padding: 1rem 1rem;
+    overflow: hidden;
+  }
+
+  
+.Cards hr {
+  width: 100% !important;
+}
+
+/* ---- sabhi images ek jaisi ---- */
+  .Cards .card-box img {
+    width: 30vw !important;
+    height: auto !important;
+    
+  }
+
+  .line {
+    width: 1px;
+    margin-right: 0.8em;
+    /* line ki thickness */
+    height: auto;
+    /* line ki height */
+    background: #a19999;
+    /* color (black) */
+  }
+  }
+
+  @media (min-width: 644.98px) and (max-width: 792px) {
+    .Cards {
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+    padding: 20px 10px;
+    overflow: hidden;
+  }
+
+  
+.Cards hr {
+  width: 100% !important;
+}
+
+/* ---- sabhi images ek jaisi ---- */
+  .Cards .card-box img {
+    width: 20vw !important;
+    height: auto !important;
+    
+  }
+
+  .line {
+    width: 1px;
+    margin-right: 0.8em;
+    /* line ki thickness */
+    height: auto;
+    /* line ki height */
+    background: #a19999;
+    /* color (black) */
+  }
+  }
+
+  @media (min-width: 792.98px) and (max-width: 912px) { 
+        .Cards {
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+    padding: 20px 10px;
+    overflow: hidden;
+  }
+
+  
+.Cards hr {
+  width: 100% !important;
+}
+
+/* ---- sabhi images ek jaisi ---- */
+  .Cards .card-box img {
+    width: 20vw !important;
+    height: auto !important;
+    
+  }
+
+  .line {
+    width: 1px;
+    margin-right: 0.8em;
+    /* line ki thickness */
+    height: auto;
+    /* line ki height */
+    background: #a19999;
+    /* color (black) */
+  } 
+  }
+
+
+
+  @media (min-width: 912.98px) and (max-width: 1054px) {
+           .Cards {
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+    overflow: hidden;
+  }
+
+  
+.Cards hr {
+  width: 100% !important;
+}
+
+/* ---- sabhi images ek jaisi ---- */
+  .Cards .card-box img {
+    width: 20vw !important;
+    height: auto !important;
+    
+  }
+
+  .line {
+    width: 1px;
+    margin-right: 0.8em;
+    /* line ki thickness */
+    height: auto;
+    /* line ki height */
+    background: #a19999;
+    /* color (black) */
+  } 
+  }
+
+  @media (min-width: 1054.98px) and (max-width: 1286px) {
+    .Cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+    padding: 0 3rem;
+    overflow: hidden;
+  }
+  }
